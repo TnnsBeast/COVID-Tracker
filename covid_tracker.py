@@ -33,8 +33,9 @@ def case_track(state):
 	lst.append(state)
 	
 	return lst
-	
-lst = case_track("CA")
+
+state_input = input("Enter the desired state[CA, AZ, etc.]")
+lst = case_track(state_input)
 
 total_cases = lst[0]
 death_count = lst[1]
